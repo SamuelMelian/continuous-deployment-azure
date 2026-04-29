@@ -49,10 +49,12 @@ public class Post {
 	public void setText(String text) {
 		this.text = text;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Post [id="+id+", username=" + username + ", title=" + title + ", text=" + text + "]";
 	}
 
 }
+
+
